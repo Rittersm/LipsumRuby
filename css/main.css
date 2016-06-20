@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(
+    rgba(13, 0, 200, 0.70),
+    rgba(13, 0, 200, 0.50)
+    ),
+}
+ .header {
+  font-family: Impact, Charcoal, sans-serif;
+  margin: 25px;
+  color: rgb(181, 181, 181);
+  text-shadow: 10px 10px rgba(64, 64, 64, .8);
+  text-align: center;
+  font-size: 60px;
+}
+.ipsum {
+  font-family: Lucida Console, Monaco, monospace;
+  color: rgb(30, 30, 30);
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 15px;
+  border-left: 2px solid rgb(189, 188, 191);
+  border-right: 2px solid rgb(189, 188, 191);
+}

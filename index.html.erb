@@ -4,17 +4,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  </head>
-</html>
-
-<html>
-  <head>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <title><%= title %></title>
   </head>
+
   <body>
-    <h1><%= my_variable.capitalize %> <%= title %> Ipsum Generator</h1>
+    <p class="header"><%= my_variable.capitalize %> <%= title %> Ipsum Generator</p>
+    <hr>
     <%count_num.times do%>
-     <p><%= content %></p>
-    <%end%> 
+     <p class="ipsum"><%= content %></p>
+    <%end%>
   </body>
 </html>
